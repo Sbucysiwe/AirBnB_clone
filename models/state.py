@@ -1,13 +1,16 @@
 #!/usr/bin/python3
-'''BaseModel subclass.'''
+"""
+Module for State class.
+"""
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    '''state class'''
+    """
+    Represent state.
+
+    Attributes:
+        name (str): name of state.
+    """
 
     name = ""
-
-    def __init__(self, *args, **kwargs):
-        """set up State"""
-        super().__init__(*args, **kwargs)
